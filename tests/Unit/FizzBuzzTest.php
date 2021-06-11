@@ -33,4 +33,11 @@ class FizzBuzzTest extends TestCase
         foreach ([1, 2, 4, 7] as $number)
             $this->assertEquals($number,  FizzBuzz::check($number));
     }
+
+    /** @test */
+    public function it_returns_POP_for_multiples_of_seven()
+    {
+        foreach ([7] as $number)
+            $this->assertEquals('pop',  FizzBuzz::check($number));
+    }
 }

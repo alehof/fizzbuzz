@@ -1,0 +1,19 @@
+{
+    "source": {
+        "directories": [
+            "app"
+        ],
+        "excludes": [
+            "Http",
+            "Exceptions",
+            "Console",
+            "Providers"
+        ]
+    },
+    "logs": {
+        "text": "infection.log"
+    },
+    "mutators": {
+        "@default": true
+    }
+}

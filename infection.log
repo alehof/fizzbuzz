@@ -1,0 +1,41 @@
+Escaped mutants:
+================
+
+1) /home/alehof/workspace/fizzBuzz/app/Models/FizzBuzz.php:13    [M] Assignment
+
+--- Original
++++ New
+@@ @@
+         // if ($number % 3 === 0 & $number % 5 === 0)
+         //     return 'fizzbuzz';
+         if ($number % 2 === 0) {
+-            $result .= 'fuzz';
++            $result = 'fuzz';
+         }
+         if ($number % 3 === 0) {
+             $result .= 'fizz';
+
+
+2) /home/alehof/workspace/fizzBuzz/app/Models/FizzBuzz.php:15    [M] Assignment
+
+--- Original
++++ New
+@@ @@
+             $result .= 'fuzz';
+         }
+         if ($number % 3 === 0) {
+-            $result .= 'fizz';
++            $result = 'fizz';
+         }
+         if ($number % 5 === 0) {
+             $result .= 'buzz';
+
+
+Timed Out mutants:
+==================
+
+Skipped mutants:
+================
+
+Not Covered mutants:
+====================

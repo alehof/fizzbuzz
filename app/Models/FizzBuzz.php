@@ -9,6 +9,8 @@ class FizzBuzz
         $result = '';
         // if ($number % 3 === 0 & $number % 5 === 0)
         //     return 'fizzbuzz';
+        if ($number % 2 === 0)
+            $result .= 'fuzz';
         if ($number % 3 === 0)
             $result .= 'fizz';
         if ($number % 5 === 0)

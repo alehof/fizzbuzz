@@ -2,6 +2,7 @@
 
 namespace Tests\Unit;
 
+use App\Models\FizzBuzz;
 use PHPUnit\Framework\TestCase;
 
 class FizzBuzzTest extends TestCase

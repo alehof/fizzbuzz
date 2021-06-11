@@ -1,21 +1,6 @@
 Escaped mutants:
 ================
 
-1) /home/alehof/workspace/fizzBuzz/app/Models/FizzBuzz.php:15    [M] Assignment
-
---- Original
-+++ New
-@@ @@
-             $result = 'fuzz';
-         }
-         if ($number % 3 === 0) {
--            $result .= 'fizz';
-+            $result = 'fizz';
-         }
-         if ($number % 5 === 0) {
-             $result .= 'buzz';
-
-
 Timed Out mutants:
 ==================
 

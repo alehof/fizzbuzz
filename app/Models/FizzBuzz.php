@@ -13,6 +13,8 @@ class FizzBuzz
             $result .= 'fizz';
         if ($number % 5 === 0)
             $result .= 'buzz';
+        if ($number % 7 === 0)
+            $result .= 'pop';
 
         return $result ?: $number;
     }

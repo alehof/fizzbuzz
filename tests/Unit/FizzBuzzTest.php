@@ -30,7 +30,7 @@ class FizzBuzzTest extends TestCase
     /** @test */
     public function it_returns_the_original_number_if_not_applicable_Fizz_BUZZ_rules()
     {
-        foreach ([1, 2, 4, 7] as $number)
+        foreach ([1, 2, 4] as $number)
             $this->assertEquals($number,  FizzBuzz::check($number));
     }
 
